@@ -21,8 +21,12 @@ html {
   margin-left: 10px;
 }
 
-.active {
+a {
+  color: white;
   text-decoration: none;
+}
+
+.active {
   padding-right: 10px;
   color: red
 }

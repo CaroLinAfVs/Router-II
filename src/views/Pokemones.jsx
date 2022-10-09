@@ -23,7 +23,7 @@ function Pokemones(props) {
     const pokemonInformation = async () => {
         if (!pokemonUser) return alert("debes elegir un pokemon");
 
-        navigate(`/pokemons/${pokemonUser}`)
+        navigate(`/pokemon/${pokemonUser}`)
     }
     //ocupamos useNavigate ya que nos permite navegar cuando ocurre algún cambio en el estado
 
