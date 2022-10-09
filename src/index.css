@@ -1,13 +1,76 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  margin: 0px;
+}
+
+.header {
+  background-color: rgb(69, 67, 67);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  align-items: center;
+}
+
+.header img {
+  height: 30px;
+  width: 30px;
+  color: white;
+  margin-left: 10px;
+}
+
+.active {
+  text-decoration: none;
+  padding-right: 10px;
+  color: red
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemonSelect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  padding: 5px 5px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.Card {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  border: 1px grey solid;
+  padding: 10px;
+  align-items: center;
+  /*justify-content: center;
+  width: 300px;*/
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details h4 {
+  margin-bottom: 3px;
 }
